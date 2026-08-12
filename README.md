@@ -9,7 +9,7 @@ A fully open-source, production-grade AI Chatbot for customer support—made for
 ## 🗂️ Folder Structure
 
 ```
-future_ml_003/
+customer-support-chatbot/
 │
 ├── actions/                      # Custom actions for Rasa
 │   ├── action_fallback_gpt.py
@@ -123,8 +123,8 @@ Automate customer support for a retail/ecommerce setting using a multilingual AI
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/YOUR_USERNAME/future_ml_032.git
-cd future_ml_032
+git clone https://github.com/eigozum-ai/customer-support-chatbot
+cd customer-support-chatbot
 python -m venv venv
 source venv/bin/activate      # (Windows: venv\Scripts\activate)
 pip install -r requirements.txt
@@ -234,27 +234,6 @@ MONGO_URI=mongodb://admin:password123@localhost:27017/chatbot
 - **Docker Compose:** Easiest for production/local demo.
 - **Cloud (Render, etc):** Use `deployment/render.yaml` as needed.
 - **Port mapping:** Default ports - Rasa (5005), Backend API (8000), Frontend (8501), Analytics (8502).
-
-***
-
-## 📚 References
-
-- [Future Interns ML Task 3](https://futureinterns.com/machine-learning-task-3/)
-- [Kaggle Customer Support Twitter Dataset](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter)
-- [Rasa Documentation](https://rasa.com/docs)
-
-***
-
-## 👨‍💻 Author / Contact
-
-- **Karan Sharma**
-- Email: karanku1882@gmail.com
-- [GitHub](https://github.com/karan-sharma-aiml)
-- [LinkedIn](https://linkedin.com/in/yourprofile)
-
-***
-
-**This project fulfills all Machine Learning Task 3 requirements for Future Interns – Sept 2025.**
 
 ***
 
